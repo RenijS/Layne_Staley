@@ -1,0 +1,78 @@
+body {
+  background-color: aliceblue;
+}
+.infobox {
+  background-color: aliceblue;
+  border: black 1px solid;
+  width: 22em;
+  float: right;
+  padding: 0.2em;
+  font-size: 88%;
+  box-sizing: border-box;
+  line-height: 1.5em;
+}
+
+.info-title,
+.info-pic,
+.info-header {
+  text-align: center;
+}
+
+.info-title {
+  font-size: 125%;
+}
+
+.info-td,
+.info-th {
+  text-align: left;
+}
+th {
+  white-space: nowrap;
+  vertical-align: top;
+}
+.infobox ul {
+  line-height: inherit;
+  margin: 0;
+  padding: 0%;
+}
+.infobox li {
+  padding: 0%;
+  display: inline;
+}
+
+.timeline_title {
+  font-weight: bold;
+}
+
+td article {
+  font-size: 0.99em;
+}
+.infobox {
+  margin-left: 1.5em;
+}
+.timeline th {
+  padding: 4px 0.7em;
+  border-top: 2px solid #d3d3d3;
+}
+
+.timeline td {
+  border-top: 1px solid #d3d3d3;
+  padding: 4px 0;
+}
+
+@media (max-width: 620px) {
+  .infobox {
+    float: none;
+    margin: 0;
+  }
+  .infobox-section {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .infobox {
+    margin: 0.5em;
+  }
+}
